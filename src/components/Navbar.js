@@ -5,14 +5,28 @@ return (
 
 <nav className="navbar">
     <div className="nav-center">
+<Link to="/"></Link>
+
+  
+
+<ul className="nav-links">
+
+<li>
 <Link to="/">
+Home 
+</Link>
+</li>
+<li>
+<Link to="/about">
+
+about
+
 
 
 </Link>
-
-    </div>
-
-<h2>Navbar Component</h2>
+</li>
+</ul>
+</div>
 
 </nav>
 
