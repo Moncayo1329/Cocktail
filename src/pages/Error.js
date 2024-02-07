@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
-const Error = () => {
+const  Error= () => {
 
 return (
 
@@ -18,4 +19,4 @@ back Home
 )
 } 
 
-export {Error}
+export default Error;
