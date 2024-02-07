@@ -1,24 +1,17 @@
 import React from "react";
+import { useGlobalContext } from "../context";
 
 
-function SearchForm (){
+const SearchForm = () => {
+
+const {setSearchTerm} = useGlobalContext()
 
 return (
-
-<section className="section about-section">
-
-<h1 className="section-title"> SearchForm</h1>
- 
+<div>
+<h2>Search form ah_ </h2>
 
 
-
-
-
-</section>
-
-
-
-
+</div>
 
 )
 
