@@ -8,11 +8,7 @@ return (
 <nav className="navbar">
     <div className="nav-center">
 <Link to="/"></Link>
-
-  
-
 <ul className="nav-links">
-
 <li>
 <Link to="/">
 Home 
@@ -20,9 +16,7 @@ Home
 </li>
 <li>
 <Link to="/about">
-
 about
-
 </Link>
 </li>
 </ul>

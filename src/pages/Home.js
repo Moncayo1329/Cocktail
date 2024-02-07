@@ -1,11 +1,16 @@
 import React from "react";
+import CocktailList from '../components/CocktailList'
+import SearchForm  from '../components/SearchForm'
 
 const  Home = () => {
   return (
-    <div>
-      <h1>Bienvenido a la página de inicio</h1>
-      <p>Este es el contenido de la página de inicio.</p>
-    </div>
+   <main>
+<CocktailList />
+
+<SearchForm />
+
+
+   </main>
   );
 }
 

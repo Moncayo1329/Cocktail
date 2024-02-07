@@ -7,18 +7,11 @@ return (
 
 <section className="section about-section">
 
-<h1 className="section-title"> About us </h1>
+<h1 className="section-title"> About us! </h1>
 
-<p> HELKELCEOCJEOCJEOCJEOCJEICJECIJEICECEICJEICJIJXSX</p>
-
-
-
+<p>It is a coctailk about us </p>
 
 </section>
-
-
-
-
 
 )
 
