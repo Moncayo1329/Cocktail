@@ -8,7 +8,7 @@ const {setSearchTerm} = useGlobalContext()
 
 return (
 <div>
-<h2>Search form ah_ </h2>
+<h2>Search form </h2>
 
 
 </div>
