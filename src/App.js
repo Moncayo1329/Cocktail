@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Error from './pages/Error';
 
+
 // import components
 
 import Navbar from './components/Navbar';

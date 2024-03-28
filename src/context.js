@@ -12,9 +12,12 @@ const[cocktails,setCocktails]= useState([])
   return <AppContext.Provider 
   value={{
 loading,
+searchTerm,
 cocktails,
 setSearchTerm,
-  }}>{children}</AppContext.Provider>
+  }}
+  >
+    {children}</AppContext.Provider>
 }
 // make sure use
 export const useGlobalContext = () => {

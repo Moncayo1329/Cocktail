@@ -1,4 +1,5 @@
 import React from 'react'
+import Cocktail from './Cocktail'
 import { useGlobalContext } from '../context';
 import Loading from './Loading'
 
