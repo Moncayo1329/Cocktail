@@ -4,6 +4,7 @@ import { useGlobalContext } from '../context';
 import Loading from './Loading'
 
 
+
 const  CocktailList = () => {
 const {cocktails,loading} = useGlobalContext();
 
