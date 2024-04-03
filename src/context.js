@@ -9,10 +9,23 @@ const[loading,setLoading] = useState(true);
 const[searchTerm,setSearchTerm] = useState('a')
 const[cocktails,setCocktails]= useState([])
 
+
+
+const fetchDrinks = async () => {
+setLoading(true)
+try {
+} catch (error) { 
+  console.log(error)
+
+}
+}
+
+
+
+
   return <AppContext.Provider 
   value={{
 loading,
-searchTerm,
 cocktails,
 setSearchTerm,
   }}
